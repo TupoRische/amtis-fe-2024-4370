@@ -4,7 +4,7 @@
   "private": true,
   "author": "AZ-MOGA.BG",
   "scripts": {
-    "dev": "vite & npx json-server --watch --port 4000 db/file.json",
+    "dev": "vite && npx json-server --watch --port 4000 db/file.json",
     "build": "vite build",
     "preview": "vite preview"
   },

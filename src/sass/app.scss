@@ -1,1 +1,255 @@
 // Продължи с твоя SCSS или обикновен CSS код тук.
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*  Navigation  */ 
+
+.main-logo {
+    align-items: center;
+    display: flex;
+    top: 100%;
+}
+
+.display-logo {
+    background-image: url('../svg/logo.svg');
+}
+
+.logo {
+    aspect-ratio: 960/300;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15%;
+    top: 1%;
+}
+
+.navigation {
+    padding-left: 20%;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.nav-item {
+    list-style: none;
+    padding-top: 1%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #9B582E;
+    font-size: 20px;
+}
+
+/* -------------*/
+
+
+
+/* Container */
+
+.container {
+    text-align: center;
+    margin: auto 10%;
+}
+
+.title {
+    padding-top: 5%;
+    font-size: 5.5rem;
+    color: #533019;
+}
+
+.title-color {
+    color: #9B582E;
+}
+
+.title-text {
+    margin: auto 10%;
+    font-size: 1.3rem;
+    text-align-last: justify;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.request {
+    text-decoration: none;
+    color: white;
+    background-color: #9B582E;
+    border: 12px solid #9B582E;
+    border-radius: 25px;    
+}
+
+.more {
+    background-color: white;
+    border: 2px solid #CA7111;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #CA7111;
+    background-color: white;
+}
+
+/* ---------- */
+
+
+
+/* Section cards */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+ }
+
+ .card {
+    background-color: #FBF4DF;
+    width: 20%;
+    height: 70vh;
+ }
+
+ .card-title {
+    text-align: center;
+ }
+
+ .card-img {
+    width: 100%;
+    margin-top: -30%;
+ }
+
+.card-text {
+    margin: auto 10%;
+}
+
+ .card-btn {
+    text-decoration: none;
+    color: #9B582E;
+    font-size: 0.8rem;
+    padding-top: 10%;
+ }
+
+/* ------------- */
+
+/*Chef container*/
+
+.chef-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto 10%;
+    padding-top: 5%;
+}
+
+.chef {
+    border-radius: 35%;
+    width: 30rem;
+    margin-right: 50px;
+}
+
+.chef-info {
+    padding-top: 5%;
+}
+
+.chef-text {
+    position: relative;
+}
+
+/*--------------*/
+
+
+/* Desserts*/
+
+.desserts-container {
+    background-color: #FBF4DF;
+    border-radius: 25px;
+}
+
+.desserts-title {
+    text-align: center;
+}
+
+.desserts-text {
+    text-align: center;
+    font-size: 15px;
+}
+
+.strawberry-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.blueberry-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.walnuts-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.sunflower-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.str-text {
+    padding-top: 3%;   
+}
+
+.strawberry-and-basil {
+    width: 40%;
+}
+
+.bacon-and-blueberry {
+    width: 40%;
+}
+
+.walnuts-and-honey {
+    width: 40%;
+}
+
+.crispy-sunflower-seed-with-cream {
+    width: 40%;
+}
+
+.calories {
+    display:flex;
+    flex-direction:row;
+    background-color: #F9E8DC;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.new-request {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9EECD;
+}
+
+/*-----------------*/
+
+/* Feedback */
+
+
+
+/* -------------- */
